@@ -1,0 +1,115 @@
+main {
+  width: 550px;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  width: 550px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #f55a5a;
+  color: whitesmoke;
+  font-family: inter, san-serif;
+  font-weight: 400;
+}
+
+h1 {
+  width: 326px;
+  height: 40px;
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+a {
+  width: 106px;
+  height: 13px;
+  flex-shrink: 0;
+  color: #918e9b;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+
+}
+
+a:hover {
+  color: blue;
+}
+
+.image {
+  width: 125px;
+  height: 168px;
+  border-radius: 0.5rem;
+}
+
+.image:hover {
+  height: 180px;
+  width: 150px;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  width: 470px;
+  height: 168px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.card:hover {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.map {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 190px;
+}
+
+.country {
+  width: 40px;
+  height: 10px;
+  flex-shrink: 0;
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  letter-spacing: 1.741px;
+  
+}
+
+.date {
+  width: 319px;
+  height: 11px;
+  flex-shrink: 0;
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 700;
+}
+
+.about {
+  width: 326px;
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 0.5rem;
+}
